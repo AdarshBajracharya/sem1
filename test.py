@@ -122,3 +122,5 @@ elif perc > 80:
     print("A")
 '''
 
+
+print()
