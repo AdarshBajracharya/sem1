@@ -122,5 +122,106 @@ elif perc > 80:
     print("A")
 '''
 
+'''
+a = "python"
+n = len(a)
+for i in range(n):
+    print (i,"=", a[i])
+'''
 
-print()
+'''
+n = int(input("Enter a number"))
+for i in range(1, 11):
+    print(f"{n} x {i} = {i * n}")
+'''
+
+'''
+n = int(input("Enter a number"))
+for i in range(10, 0, -1):
+    print(f"{n} x {i} = {i * n}")
+'''
+
+'''
+for i in range(1, 50):
+    print(i, "----", 50 -i)
+'''
+
+'''
+a =0 
+n = input("Enter a number")
+for i in str(n):
+    a = a + int(i)
+print(a)
+'''
+
+'''
+n = int(input("Enter a number"))
+d = 0
+if n > 1:
+    for i in range(2, n):
+        d = d % i
+        if d == 0:
+            print("Not Prime")
+            break
+        else:
+            print("Prime")
+'''
+
+'''
+n = input("Enter a string ")
+r = ""
+for i in n:
+    r = i + r
+print(r)
+'''
+
+'''
+n, f = int(input("Enter a number")),1
+for i in range(1, n+1):
+    f = i * f
+print(f)
+'''
+
+'''
+s = input("Enter a string ")
+st, nu =0, 0
+for i in s:
+    if i.isalpha():
+        st = st + 1
+    else:
+        nu = nu + 1
+print(f"string = {st} digit = {nu}")
+'''
+
+'''
+n, r = input("Enter a string "),""
+for i in n:
+    r = i + r
+if n == r:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+'''
+
+un = "admin"
+pas = "admin"
+for i in range(3):
+    uun = input("Enter username ")
+    ppas = input("Enter password ")
+    if un == uun and pas == ppas:
+        print("Welcome")
+        break
+    else:
+        print("Try Again")
+
+
+
+
+
+
+
+
+
+
+
+
